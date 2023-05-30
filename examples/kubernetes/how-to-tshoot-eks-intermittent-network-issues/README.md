@@ -38,4 +38,3 @@ Reference : https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-n
 #### Randomly any Worker Node
 
 In cases where a particular node or set of nodes can not be identified that lead to connectivity issues, the pod could be run as a daemonset to ensure that pcaps are captured from all the nodes and sent to an existing S3 bucket. 
-
